@@ -208,6 +208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5467285085316221433}
   - component: {fileID: 5467285085316221432}
+  - component: {fileID: 4999552966857025074}
   m_Layer: 8
   m_Name: Camera holder
   m_TagString: Untagged
@@ -253,6 +254,19 @@ MonoBehaviour:
   punchSpringConstant: 65
   punchAngle: {x: 0, y: 0}
   punchAngleVel: {x: 0, y: 0}
+--- !u!114 &4999552966857025074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5467285085316221438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe966afcb70bd04d998cdd7666a51df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 1797260765628920346, guid: cbe3d0f466179d4478bc46c02f3f2589, type: 3}
 --- !u!1001 &798684134505508946
 PrefabInstance:
   m_ObjectHideFlags: 0

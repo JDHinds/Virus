@@ -6,6 +6,8 @@ using UnityEngine.EventSystems;
 
 public class ButtonBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
+    public AudioSource audio;
+
     void Start()
     {
         this.gameObject.GetComponent<Button>().image.enabled = false;
@@ -24,5 +26,6 @@ public class ButtonBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerExit
 public void onClick()
     {
         this.gameObject.GetComponent<Button>().image.enabled = false;
+        audio.Play();
     }
 }
